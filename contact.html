@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | A Good Farewell</title>
+<meta name="description" content="Book a free, no-obligation call with A Good Farewell, by phone, email or in person. No pressure, no obligation, and everything kept confidential.">
+<link rel="canonical" href="https://www.agoodfarewell.co.uk/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us | A Good Farewell">
+<meta property="og:description" content="Book a free call, by phone, email or in person.">
+<meta property="og:image" content="images/contact.jpg">
+<meta property="og:url" content="https://www.agoodfarewell.co.uk/contact.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <g fill="none" stroke="var(--brand-blue)" stroke-width="5">
+          <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(0 50 50)"/>
+          <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(72 50 50)"/>
+          <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(144 50 50)"/>
+          <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(216 50 50)"/>
+          <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(288 50 50)"/>
+        </g>
+        <circle cx="50" cy="50" r="8" fill="var(--brand-yellow)"/>
+      </svg>
+      A Good Farewell
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="how-it-works.html">How we help</a>
+      <a href="faq.html">FAQs</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="contact.html">Book a call</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-overlay" aria-label="Open menu">
+      <span class="nav-toggle-icon"></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+  </div>
+</header>
+
+<div class="nav-overlay" id="nav-overlay" role="dialog" aria-modal="true" aria-label="Menu" inert>
+  <svg class="nav-overlay-motif" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="#FAFBFF" stroke-width="4">
+      <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(0 50 50)"/>
+      <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(72 50 50)"/>
+      <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(144 50 50)"/>
+      <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(216 50 50)"/>
+      <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(288 50 50)"/>
+    </g>
+  </svg>
+  <div class="nav-overlay-top">
+    <span class="brand">A Good Farewell</span>
+    <button class="nav-overlay-close" type="button" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+  </div>
+  <ul class="nav-overlay-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="how-it-works.html">How we help</a></li>
+    <li><a href="faq.html">FAQs</a></li>
+    <li><a href="contact.html" aria-current="page">Contact</a></li>
+  </ul>
+  <div class="nav-overlay-cta">
+    <a class="btn btn-primary btn-block" href="contact.html">Book a call</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero bg-cream">
+    <div class="container">
+      <span class="label">Get in touch</span>
+      <h1 class="h1-page">Let us talk, whenever you are ready</h1>
+      <p class="body-lg text-muted" style="max-width:60ch;">However you would like to talk, by phone, email, or in person, we are here to listen, with no pressure and no obligation.</p>
+    </div>
+  </section>
+
+  <section class="section bg-cream">
+    <div class="container">
+      <div class="two-col" style="align-items:start;">
+
+        <div class="card tint-sky">
+          <h2 class="h2-card">Send us a message</h2>
+          <p class="form-note" style="margin-bottom: var(--space-3);">All fields are required unless marked optional.</p>
+
+          <!--
+            This form is client-side only for now. To make it work, wire it
+            up to a form-submission service, for example:
+
+            Formspree — change the tag below to:
+              <form id="contact-form" action="https://formspree.io/f/{your-id}" method="POST">
+
+            Netlify Forms — add data-netlify="true" and a hidden input
+            named "form-name" matching the form's name attribute, then
+            deploy on Netlify.
+
+            See js/main.js for the matching validation and submit-handling
+            logic (data-validate marks fields that get inline error text).
+          -->
+          <form id="contact-form" class="form-grid" action="#" method="POST" novalidate>
+            <div class="form-row-2">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="e.g. Jane Whitfield" required aria-invalid="false" aria-describedby="name-error" data-validate data-error-required="Enter your full name.">
+                <p class="field-error" id="name-error" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="phone">Phone number <span class="opt">(optional)</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="e.g. 07700 900000">
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="e.g. jane@example.com" required aria-invalid="false" aria-describedby="email-error" data-validate data-error-required="Enter your email address.">
+              <p class="field-error" id="email-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="help-type">How can we help?</label>
+              <select id="help-type" name="help-type" required aria-invalid="false" aria-describedby="help-type-error" data-validate data-error-required="Choose the option closest to your situation.">
+                <option value="" selected disabled>Choose an option</option>
+                <option value="Planning ahead">Planning ahead</option>
+                <option value="Recent bereavement">Recent bereavement</option>
+                <option value="Wills and LPA">Wills and LPA</option>
+                <option value="Probate">Probate</option>
+                <option value="Funeral arrangements">Funeral arrangements</option>
+                <option value="Something else">Something else</option>
+              </select>
+              <p class="field-error" id="help-type-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" placeholder="Share as much or as little as you would like." required aria-invalid="false" aria-describedby="message-error" data-validate data-error-required="Let us know a little about what you need."></textarea>
+              <p class="field-error" id="message-error" role="alert"></p>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-primary btn-block">Send message</button>
+              <p class="form-note" style="margin-top: var(--space-2);">We will get back to you personally, usually within one working day.</p>
+            </div>
+            <div class="form-success" id="form-success" role="status">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6"/></svg>
+              Thank you, your message has been received. We will be in touch soon.
+            </div>
+          </form>
+
+          <div class="reassurance-box">Everything you share with us is kept confidential and handled with care.</div>
+        </div>
+
+        <div>
+          <div class="photo" style="aspect-ratio:4/2.6; margin-bottom: var(--space-4);">
+            <img src="images/contact.webp" alt="A woman smiling warmly during a phone call, at ease and ready to listen." width="1200" height="800" loading="lazy">
+          </div>
+
+          <h2 class="h2-card">Other ways to reach us <span class="badge-placeholder">Add client details</span></h2>
+          <ul class="contact-details">
+            <li>
+              <span class="icon-chip chip-blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h3l1.4 4L8.5 9a11 11 0 0 0 6.5 6.5l1.5-1.9 4 1.4v3a1.5 1.5 0 0 1-1.6 1.5A16.5 16.5 0 0 1 4.5 5.1 1.5 1.5 0 0 1 6 3.5Z"/></svg>
+              </span>
+              <div>
+                <strong>Phone</strong>
+                [ADD CLIENT PHONE NUMBER]
+              </div>
+            </li>
+            <li>
+              <span class="icon-chip chip-lavender" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+              </span>
+              <div>
+                <strong>Email</strong>
+                [ADD CLIENT EMAIL ADDRESS]
+              </div>
+            </li>
+            <li>
+              <span class="icon-chip chip-leaf" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+              </span>
+              <div>
+                <strong>Office</strong>
+                [ADD REGISTERED OFFICE ADDRESS]
+              </div>
+            </li>
+            <li>
+              <span class="icon-chip chip-yellow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17"/><path d="M8 3v4M16 3v4"/></svg>
+              </span>
+              <div>
+                <strong>Opening hours</strong>
+                [ADD OPENING HOURS]
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="index.html">
+          <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+            <g fill="none" stroke="#F5C842" stroke-width="6">
+              <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(0 50 50)"/>
+              <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(72 50 50)"/>
+              <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(144 50 50)"/>
+              <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(216 50 50)"/>
+              <ellipse cx="50" cy="27" rx="11" ry="17" transform="rotate(288 50 50)"/>
+            </g>
+          </svg>
+          A Good Farewell
+        </a>
+        <p style="color:#9FB4CB; max-width:38ch;">Let us take the administration out of death, so you can arrange a good farewell for your loved one, rest in peace, and give yourself time to grieve.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="how-it-works.html">How we help</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <ul>
+          <li>Phone: [ADD CLIENT PHONE NUMBER]</li>
+          <li>Email: [ADD CLIENT EMAIL ADDRESS]</li>
+          <li>Office: [ADD REGISTERED OFFICE ADDRESS]</li>
+          <li><a href="contact.html">Book a call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Trust and compliance</h3>
+        <ul>
+          <li>Company number: [ADD COMPANY NUMBER]</li>
+          <li>Registered address: [ADD REGISTERED ADDRESS]</li>
+          <li>Regulated by: [ADD REGULATORY BODY]</li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms and conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>© 2026 A Good Farewell. All prices shown are exclusive of VAT.</span>
+      <span class="legal-links">
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms and conditions</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
